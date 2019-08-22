@@ -1,8 +1,5 @@
 package UI;
 
-import Controller.ContactForm;
-import com.sun.tools.javac.Main;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -40,7 +37,8 @@ public class MainForm extends JFrame {
         buttonRemove.addActionListener(new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                dispose();
+
+                JOptionPane.showMessageDialog(null,"Contact Removed sucefull");
             }
         });
     }

@@ -1,4 +1,4 @@
-package Controller;
+package UI;
 
 import UI.MainForm;
 
